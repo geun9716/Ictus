@@ -1,0 +1,339 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Project.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjectDoc.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjectView.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ShopDialog.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Project.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ProjectDoc.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ProjectView.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ShopDialog.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Project.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\Project.rc2">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\wav1.bin">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\wav2.bin">
+      <Filter>리소스 파일</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\ProjectDoc.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Project.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\BITMAP_FISH1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\bitmap1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\BITMAP_FISH2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\BITMAP_FISH3.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\BITMAP_FISH4.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\BITMAP_FISH5.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\BITMAP_FISH6.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\BITMAP_FISH7.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\BITMAP_BUBBLE.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\BITMAP_FISH8.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\bubbleA.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\bubbleB.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\bubbleC.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\bubbleD.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\bubbleE.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\bubbleF.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\bubbleG.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\bubbleH.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\bubbleI.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\bubbleJ.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\bubbleK.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\bubbleL.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\bubbleM.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\bubbleN.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\bubbleO.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\bubbleP.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\bubbleQ.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\bubbleR.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\bubbleS.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\bubbleT.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\bubbleU.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\bubbleV.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\bubbleW.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\bubbleX.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\bubbleY.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\bubbleZ.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\mainback_1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\back.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\expences-button-png-hi.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\제목 없음-1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\BUTTON1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\BUTTON1_CLICKED.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\BUTTON1_FOCUS.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\BUTTON2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\BUTTON2_CLICKED.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\BUTTON3.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\BUTTON3_CLICKED.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\BUTTON4.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\BUTTON4_CLICKED.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\BUTTON5.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\BUTTON5_CLICKED.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\BUTTON6.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\BUTTON6_CLICKED.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\BUTTON7.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\BUTTON7_CLICKED.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\pixel1_1_2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\gamemover.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\pixel1_2_2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\pixel1_3_2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\pixel1_4_2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\pixel1_5_2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\pixel1_6_2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\pixel1_7_2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\pixel1_8_2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\BITMAP_COIN.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\BITMAP_ENEMY1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\BITMAP_ENEMY2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\BITMAP_ENEMY3.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\BITMAP_ENEMY1_REVERSE.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\BITMAP_ENEMY2_REVERSE.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\BITMAP_ENEMY3_REVERSE.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\BITMAP_ENEMY4.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\BITMAP_ENEMY4_REVERSE.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\gameover.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\clear.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\bitmap4.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\BUTTON8.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\BUTTON8_CLICKED.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="res\main.wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="res\거품 소리.wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="res\Ingame.mp3" />
+    <Media Include="res\Ingame.wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="res\dead.wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="res\mas.wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
+  </ItemGroup>
+</Project>

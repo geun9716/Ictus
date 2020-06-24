@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{82375109-63C8-4366-9A35-4AC65C89BF18}</ProjectGuid>
+    <Keyword>MFCProj</Keyword>
+    <RootNamespace>Project</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="MainFrm.h" />
+    <ClInclude Include="Project.h" />
+    <ClInclude Include="ProjectDoc.h" />
+    <ClInclude Include="ProjectView.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="ShopDialog.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MainFrm.cpp" />
+    <ClCompile Include="Project.cpp" />
+    <ClCompile Include="ProjectDoc.cpp" />
+    <ClCompile Include="ProjectView.cpp" />
+    <ClCompile Include="ShopDialog.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Project.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\Project.rc2" />
+    <None Include="res\wav1.bin" />
+    <None Include="res\wav2.bin" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\back.bmp" />
+    <Image Include="res\bitmap1.bmp" />
+    <Image Include="res\bitmap4.bmp" />
+    <Image Include="res\BITMAP_BUBBLE.bmp" />
+    <Image Include="res\BITMAP_COIN.bmp" />
+    <Image Include="res\BITMAP_ENEMY1.bmp" />
+    <Image Include="res\BITMAP_ENEMY1_REVERSE.bmp" />
+    <Image Include="res\BITMAP_ENEMY2.bmp" />
+    <Image Include="res\BITMAP_ENEMY2_REVERSE.bmp" />
+    <Image Include="res\BITMAP_ENEMY3.bmp" />
+    <Image Include="res\BITMAP_ENEMY3_REVERSE.bmp" />
+    <Image Include="res\BITMAP_ENEMY4.bmp" />
+    <Image Include="res\BITMAP_ENEMY4_REVERSE.bmp" />
+    <Image Include="res\BITMAP_FISH1.bmp" />
+    <Image Include="res\BITMAP_FISH2.bmp" />
+    <Image Include="res\BITMAP_FISH3.bmp" />
+    <Image Include="res\BITMAP_FISH4.bmp" />
+    <Image Include="res\BITMAP_FISH5.bmp" />
+    <Image Include="res\BITMAP_FISH6.bmp" />
+    <Image Include="res\BITMAP_FISH7.bmp" />
+    <Image Include="res\BITMAP_FISH8.bmp" />
+    <Image Include="res\bubbleA.bmp" />
+    <Image Include="res\bubbleB.bmp" />
+    <Image Include="res\bubbleC.bmp" />
+    <Image Include="res\bubbleD.bmp" />
+    <Image Include="res\bubbleE.bmp" />
+    <Image Include="res\bubbleF.bmp" />
+    <Image Include="res\bubbleG.bmp" />
+    <Image Include="res\bubbleH.bmp" />
+    <Image Include="res\bubbleI.bmp" />
+    <Image Include="res\bubbleJ.bmp" />
+    <Image Include="res\bubbleK.bmp" />
+    <Image Include="res\bubbleL.bmp" />
+    <Image Include="res\bubbleM.bmp" />
+    <Image Include="res\bubbleN.bmp" />
+    <Image Include="res\bubbleO.bmp" />
+    <Image Include="res\bubbleP.bmp" />
+    <Image Include="res\bubbleQ.bmp" />
+    <Image Include="res\bubbleR.bmp" />
+    <Image Include="res\bubbleS.bmp" />
+    <Image Include="res\bubbleT.bmp" />
+    <Image Include="res\bubbleU.bmp" />
+    <Image Include="res\bubbleV.bmp" />
+    <Image Include="res\bubbleW.bmp" />
+    <Image Include="res\bubbleX.bmp" />
+    <Image Include="res\bubbleY.bmp" />
+    <Image Include="res\bubbleZ.bmp" />
+    <Image Include="res\BUTTON1.bmp" />
+    <Image Include="res\BUTTON1_CLICKED.bmp" />
+    <Image Include="res\BUTTON1_FOCUS.bmp" />
+    <Image Include="res\BUTTON2.bmp" />
+    <Image Include="res\BUTTON2_CLICKED.bmp" />
+    <Image Include="res\BUTTON3.bmp" />
+    <Image Include="res\BUTTON3_CLICKED.bmp" />
+    <Image Include="res\BUTTON4.bmp" />
+    <Image Include="res\BUTTON4_CLICKED.bmp" />
+    <Image Include="res\BUTTON5.bmp" />
+    <Image Include="res\BUTTON5_CLICKED.bmp" />
+    <Image Include="res\BUTTON6.bmp" />
+    <Image Include="res\BUTTON6_CLICKED.bmp" />
+    <Image Include="res\BUTTON7.bmp" />
+    <Image Include="res\BUTTON7_CLICKED.bmp" />
+    <Image Include="res\BUTTON8.bmp" />
+    <Image Include="res\BUTTON8_CLICKED.bmp" />
+    <Image Include="res\clear.bmp" />
+    <Image Include="res\expences-button-png-hi.bmp" />
+    <Image Include="res\gamemover.bmp" />
+    <Image Include="res\gameover.bmp" />
+    <Image Include="res\mainback_1.bmp" />
+    <Image Include="res\pixel1_1_2.bmp" />
+    <Image Include="res\pixel1_2_2.bmp" />
+    <Image Include="res\pixel1_3_2.bmp" />
+    <Image Include="res\pixel1_4_2.bmp" />
+    <Image Include="res\pixel1_5_2.bmp" />
+    <Image Include="res\pixel1_6_2.bmp" />
+    <Image Include="res\pixel1_7_2.bmp" />
+    <Image Include="res\pixel1_8_2.bmp" />
+    <Image Include="res\Project.ico" />
+    <Image Include="res\ProjectDoc.ico" />
+    <Image Include="res\제목 없음-1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="res\dead.wav" />
+    <Media Include="res\Ingame.mp3" />
+    <Media Include="res\Ingame.wav" />
+    <Media Include="res\main.wav" />
+    <Media Include="res\mas.wav" />
+    <Media Include="res\거품 소리.wav" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
